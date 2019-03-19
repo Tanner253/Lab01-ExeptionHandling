@@ -29,7 +29,7 @@ Then select and open ```ExceptionHandling.sln```
 ------------------------------
 
 ## Visuals
-***[Add screenshots of your application in action]***
+
 
 ##### Using The Application
  ![solution for numbers game program](/images/solution.JPG)
