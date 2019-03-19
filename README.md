@@ -15,7 +15,7 @@ This program takes in user input and responds with a calculated output. there ar
 ## Getting Started
 Clone this repository to your local machine.
 ```
-$ git clone [https://github.com/Tanner253/Lab01-ExeptionHandling.git]
+$ git clone https://github.com/Tanner253/Lab01-ExeptionHandling.git
 ```
 #### To run the program from Visual Studio:
 Select ```File``` -> ```Open``` -> ```Project/Solution```
