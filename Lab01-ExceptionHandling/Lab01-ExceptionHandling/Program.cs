@@ -53,11 +53,13 @@ namespace Lab01_ExceptionHandling
                 //get Quotient
                 Console.WriteLine(GetQuotient(product));
             }
+            //if incorrect format tell user
             catch(FormatException fe)
             {
                 Console.WriteLine(fe.Message);
 
             }
+            //if overflow catch and tell user
             catch (OverflowException oe)
             {
                 Console.WriteLine(oe.Message);
@@ -67,7 +69,7 @@ namespace Lab01_ExceptionHandling
         {
 
             //for each index in array
-            for (int i = 1; i <= array.Length -1; i++)
+            for (int i = 1; i <=array.Length -1; i++)
             {
                 //request input i want to make the "/6" display the actual selected number but no global variables?
                 Console.WriteLine($"please enter a number {i}/6");
